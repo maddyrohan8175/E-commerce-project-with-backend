@@ -1,5 +1,7 @@
 const db=require('../DatabaseConfig.js')
 
+//this is save product controller
+
 exports.saveProduct=(req,res)=>{
     let product_name=req.body.product_name
     let product_type=req.body.product_type
